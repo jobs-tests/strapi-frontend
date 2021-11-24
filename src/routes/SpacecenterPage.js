@@ -1,7 +1,8 @@
+import React from 'react';
 import logo from '../logo.svg';
 import '../App.css';
 
-function SpacenterPage() {
+const SpacenterPage = function () {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +21,6 @@ function SpacenterPage() {
       </header>
     </div>
   );
-}
+};
 
 export default SpacenterPage;
